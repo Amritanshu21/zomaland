@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;font-family: 'Poppins', sans-serif;
+}
+html,body{
+    height: 100%;
+   width: 100%;
+}
+#ad{
+ position: absolute;
+    display: flex;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 99;
+}
+#ad p{
+    font-size: 20px;
+    display: flex;
+margin-left: 230px;
+   
+}
+#ad button{
+   margin-right:230px;
+    color: white;
+    font-weight: 12px;
+    padding: 8px 8px;
+    border-radius: 50px;
+    background-color:red;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+     position: absolute;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+    position: relative;
+
+    }
+
+#center{
+    height: 100%;
+    width: 100%;
+    
+
+  
+}
+
+#center h3{
+    
+    color:white;
+    font-size: 110px;
+    font-weight: 800;
+
+    padding-top: 110px;
+    padding-left: 360px;
+    
+
+}
+
+#center p{
+font-size: 20px;
+    color: white;
+
+  padding-left: 765px;
+ 
+   
+} 
+
+#center h1{
+    display: flex;
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 60px;
+    padding-left: 140px;
+color:#EEFE54;
+}
+.promo{
+  
+      height: 130px;
+      display: flex;
+      margin-top: 30px;
+      margin-left: 20px;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      
+      gap: 80px;
+  }
+  .banner{
+    
+    display: flex;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+     justify-content: space-evenly;
+     
+     
+  }
+  .banner h1{
+    font-weight: 800;
+      font-size: 52px;
+      
+      }
+  
+  .banner h3{
+    font-weight: 700;
+      font-size: 28px;
+      text-transform: uppercase;
+   
+
+  
+    }
+    #cities{
+        margin-top: 20px;
+        background-color: #CFB0A2;
+        height: 230px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    #cities  h3{
+       
+      font-weight: 600;
+        color: white;
+        font-size: 70px;
+        position: absolute;
+        padding-bottom: 140px;
+        margin-bottom: 20px;
+        align-items: center;
+
+    }
+    #cities img{
+        height: 185px;
+        width: 150px;
+        padding-top: 60px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #food{
+        padding-top: 20px;
+        height: 100%;
+        width: 100%;
+        position: relative;
+       background-image: url(https://images.unsplash.com/photo-1518912006-3761723e528a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+background-position: center;
+       background-size: cover;
+       display: flex;
+       flex-direction: column;
+
+       justify-content: center;
+    }
+    #food .header{
+        font-weight: 800;
+        font-size: 62px;
+       justify-content: center;
+      text-align: center;
+      color: black;
+      
+        }
+       #food .details{
+        font-weight: 600;
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+       
+
+      }
+#aftermovie{
+    position: relative;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+#aftermovie video{
+  height: 300px;
+  width: 500px;
+  margin-right: 400px;
+  border-radius: 50px;
+}
+#aftermovie #text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 600px;
+}
+#text h3{
+    font-size: 60px;
+    font-weight: 600;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 20px;
+}
+#text span{
+    padding-top: 15px;
+}
+#text p{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+#artist{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1581358056426-1a477906bdbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2127&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+#artist #heading{
+    color: white;
+    position: absolute;
+text-align: center;
+ 
+   
+}
+#heading h3{
+    font-size: 60px;
+    
+    padding-bottom: 10px;
+}
+#heading p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#promotion{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+#promotion h3{
+    font-size: 60px;
+    width: 850px;
+    text-align: center;
+    font-weight: 750;
+}
+#promotion p{
+    font-size: 25px;
+    font-weight:500;
+    width: 500px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#promotion i{
+    padding-top: 25px;
+    color: red;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
